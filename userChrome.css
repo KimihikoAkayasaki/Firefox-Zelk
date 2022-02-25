@@ -195,7 +195,8 @@ toolbar#nav-bar toolbarbutton #fxa-avatar-image {
 #urlbar>#urlbar-background {
 	border-radius: 10px !important;
 	border: 0 !important;
-	background-color: rgba(var(--accent-color), 0.2) !important;
+	background-color: rgba(var(--accent-color), 1) !important;
+	filter: brightness(0.29) !important;
 }
 
 #urlbar:not([focused="true"])>#urlbar-background,
